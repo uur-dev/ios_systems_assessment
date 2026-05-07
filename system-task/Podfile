@@ -9,5 +9,7 @@ target 'system-task' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SnapKit'
+  pod 'RealmSwift'
+  pod 'Alamofire'
 
 end

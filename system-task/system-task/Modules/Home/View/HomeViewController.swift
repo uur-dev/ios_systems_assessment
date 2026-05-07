@@ -84,6 +84,8 @@ extension HomeViewController {
         // move to login vc
         let loginVC = UIStoryboard.getVC(ofType: LoginViewController.self)
         self.navigationController?.makeRoot(viewController: loginVC, animated: true)
+        //clear database
+        PostRealmStore.shared.clearAllPosts()
         // call user logout
         UserService.shared.logout()
     }
