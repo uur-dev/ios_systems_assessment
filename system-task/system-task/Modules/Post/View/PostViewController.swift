@@ -22,7 +22,10 @@ class PostViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         setupBindings()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         // initial call
         viewModel.fetchAllPost()
     }
