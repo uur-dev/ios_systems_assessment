@@ -15,6 +15,19 @@ A clean, offline first iOS app that fetches posts from the [JSONPlaceholder API]
 
 ---
 
+## Screenshots
+
+![Login](screenshots/1.png)
+![Login Valdiation Email](screenshots/1.png)
+![Login Valdiation Email](screenshots/2.png)
+![Login Valdiation Password](screenshots/3.png)
+![Login All Good](screenshots/4.png)
+![Post](screenshots/5.png)
+![Post Fav](screenshots/6.png)
+![Favourite](screenshots/7.png)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
