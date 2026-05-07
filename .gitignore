@@ -60,3 +60,27 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Xcode Extras ---
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# System Files ---
+.DS_Store
+*.swp
+
+# Ignore the Pods folder inside the subfolder
+system-task/Pods/
+
+# Ignore workspace data that is user-specific
+system-task/system-task.xcworkspace/xcuserdata/
+system-task/system-task.xcworkspace/xcshareddata/
